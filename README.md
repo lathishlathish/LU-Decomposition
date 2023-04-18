@@ -37,8 +37,9 @@ Developed by:
 RegisterNumber: 
 */
 ```
+## Output:
+![image](https://user-images.githubusercontent.com/120359170/232738927-8ab11e45-476d-4333-b2a2-bf38349a9e20.png)
 
-## Output:![image](https://user-images.githubusercontent.com/120359170/232737761-a66a421a-467f-4cc7-b337-4040dbcc8200.png)
 ![image](https://user-images.githubusercontent.com/120359170/232737909-6d4af4e2-6477-45cf-8bd5-c1c917f0c8d4.png)
 
 ## Result:
