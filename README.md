@@ -25,23 +25,21 @@ To write a program to find the LU Decomposition of a matrix.
 ```
 /*
 Program to find the L and U matrix.
-Developed by: 
-RegisterNumber: 
+Developed by: LATHISH KANNA .M
+RegisterNumber: 212222230073
 */
 ```
 (ii) To find the LU Decomposition of a matrix
 ```
 /*
 Program to find the LU Decomposition of a matrix.
-Developed by: 
-RegisterNumber: 
+Developed by: LATHISH KANNA. M
+RegisterNumber: 212222230073
 */
 ```
 ## Output:
 ![image](https://user-images.githubusercontent.com/120359170/232738927-8ab11e45-476d-4333-b2a2-bf38349a9e20.png)
-
 ![image](https://user-images.githubusercontent.com/120359170/232737909-6d4af4e2-6477-45cf-8bd5-c1c917f0c8d4.png)
-
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
 
