@@ -1,56 +1,53 @@
-# LU Decomposition 
-
+## LU Decomposition
 ## AIM:
 To write a program to find the LU Decomposition of a matrix.
-
 ## Equipments Required:
-1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
+Hardware – PCs
 
-## Algorithm
-1. Import numpy library using import statement
+Anaconda – Python 3.7 Installation / Moodle-Code Runner
+## Algorithm :
+1.Read the elements of augmented matrix into arrays a and b
 
-2.From scipy package import lu_factor() and lu_solve().
+2.Calculate elements of L and U
 
-3.Get two inputs from user and pass it as matrix array.
+3.Print elements of L and U
 
-4'Find lu and pivot value of first marix using lu_factor().
+4.Find V by solving LV = B by forward substitution
 
-5.Find solution of the matrix by using lu_solve() by passing lu, pivot values as first argument and second matrix as second argument.
+5.Find X by solving UX = V by backward substitution
 
-6.Print the solution.
-
+6.Print Array X as the solution
 ## Program:
 (i) To find the L and U matrix
 ```
-#Program to find the L and U matrix.
-Developed by: LATHISH KANNA .M
+## Program to find the L and U matrix.
+Developed by: LATHISH KANNA.M
 RegisterNumber: 212222230073
-import numpy as np
+
 from scipy.linalg import lu
-A = np.array(eval(input()))
-P,L,U=lu(A)
+a=eval(input())
+P,L,U=lu(a)
 print(L)
 print(U)
-
 ```
 (ii) To find the LU Decomposition of a matrix
-```
-#Program to find the LU Decomposition of a matrix.
-Developed by: LATHISH KANNA. M
-RegisterNumber: 212222230073
-import numpy as np
-from scipy.linalg import lu_factor , lu_solve 
-A= eval(input()) #np .array (eval(input()))
-b=eval(input())
-lu,piv = lu_factor(A)
-x = lu_solve((lu, piv), b)
-print (x)
 
+Program to find the LU Decomposition of a matrix.
+```
+Developed by: LATHISH KANNA.M
+RegisterNumber: 212222230073
+
+import numpy as np
+from scipy.linalg import lu_factor,lu_solve
+a=eval(input())
+b=eval(input())
+lu,piv=lu_factor(a)
+x=lu_solve((lu,piv),b)
+print(x)
 ```
 ## Output:
-![image](https://user-images.githubusercontent.com/120359170/232738927-8ab11e45-476d-4333-b2a2-bf38349a9e20.png)
-![image](https://user-images.githubusercontent.com/120359170/232737909-6d4af4e2-6477-45cf-8bd5-c1c917f0c8d4.png)
+![image](https://github.com/lathishlathish/LU-Decomposition/assets/120359170/1f2f044e-8728-454f-a066-b0642bcc4b0c)
+
+
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
-
