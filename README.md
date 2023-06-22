@@ -21,8 +21,8 @@ Anaconda – Python 3.7 Installation / Moodle-Code Runner
 (i) To find the L and U matrix
 ```
 ## Program to find the L and U matrix.
-Developed by: DIVAKAR.R
-RegisterNumber: 22008432
+Developed by: LATHISH KANNA.M
+RegisterNumber: 212222230073
 
 from scipy.linalg import lu
 a=eval(input())
@@ -34,8 +34,8 @@ print(U)
 
 Program to find the LU Decomposition of a matrix.
 ```
-Developed by: DIVAKAR.R
-RegisterNumber: 22008432
+Developed by: LATHISH KANNA.M
+RegisterNumber: 212222230073
 
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
